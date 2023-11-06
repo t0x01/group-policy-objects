@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<policyComments xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" revision="1.0" schemaVersion="1.0" xmlns="http://www.microsoft.com/GroupPolicy/CommentDefinitions">
+  <policyNamespaces>
+    <using prefix="ns0" namespace="Microsoft.Policies.WindowsFirewall"></using>
+  </policyNamespaces>
+  <comments>
+    <admTemplate>
+      <comment policyRef="ns0:WF_RemoteAdmin_Name_1" commentText="$(resource.ns0_WF_RemoteAdmin_Name_1)"></comment>
+      <comment policyRef="ns0:WF_RemoteDesktop_Name_1" commentText="$(resource.ns0_WF_RemoteDesktop_Name_1)"></comment>
+    </admTemplate>
+  </comments>
+  <resources minRequiredRevision="1.0">
+    <stringTable>
+      <string id="ns0_WF_RemoteAdmin_Name_1">PLACE YOUR SETTINGS HERE</string>
+      <string id="ns0_WF_RemoteDesktop_Name_1">PLACE YOUR SETTINGS HERE</string>
+    </stringTable>
+  </resources>
+</policyComments>
